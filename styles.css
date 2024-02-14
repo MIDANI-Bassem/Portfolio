@@ -1,0 +1,637 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin : 0px;
+    font-family :Verdana, Tahoma, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.material-symbols-outlined{
+    font-size: 50px !important;
+    color: #000000 !important;
+    display: none !important;
+}
+.navbar{
+    position: relative;
+    padding-top: 20px;
+    height: 60px;
+    background-color :rgb(255, 255, 255) ;
+    width : 100%;
+ 
+}
+.navbar a#active {
+    background-color: #000000;
+    color: white;
+}
+
+.nav-bar{
+    padding: 20px;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    color : black;
+}
+
+.nav-bar:hover{
+    background-color: rgb(0, 0, 0);
+    color : white ;
+    font-weight: bold;
+    border : 5px solid black;
+    box-shadow: 3px 3px 5px rgb(61, 59, 59);
+}
+
+.the_me{
+    height: 878px;
+} 
+.the_me_container{
+    float : right;
+    height: 880px;
+} 
+.intro{
+    padding: 10px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 250px;
+    height: 500px;
+    width: 50%;
+}
+#about{
+    position: absolute;
+    margin-top : 200px;
+    width: 100%;
+    height: 800px;
+}
+.the_me2_container{
+    float: left;
+    height: 800px;
+}
+.the_me2{
+    height: 800px;
+}
+.text_about_container{
+    position: absolute;
+    padding-left : 20px;
+    margin-left : 600px;
+    height: 800px;
+}
+
+.presentation-1, .presentation-about1{
+    margin-top: 80px;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+.presentation-2, .presentation-about2{
+    font-size: medium;
+    padding : 5px;
+    font-weight: bold;
+}
+
+.mail{
+    font-size: medium;
+    padding : 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.button{
+    position : absolute;
+    margin-top: 15px;
+    padding :15px;
+    border : 5px solid black;
+    border-radius : 50px;
+    background-color: rgb(0, 0, 0);
+    color : white;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px rgb(61, 59, 59);
+}
+.button:hover{ 
+    border : 10px solid black;
+}
+
+.section-title{
+    position: relative;
+    margin-top: 1150px ;
+    width: 100%;
+    height: 100px;
+    font-size: xx-large;
+    text-shadow: 3px 3px 5px rgb(61, 59, 59);
+}
+#education{
+    position: absolute;
+    width : 100%;
+    height: 500px;
+    
+}
+#esat{
+    width: 100%;
+    height : 250px;
+}
+#esat:hover{
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+}
+.esat-logo{
+    position : absolute;
+    width:40%;
+    height :250px;
+    
+}
+.esat-description{
+    float: right;
+    height: 250px;
+    font-weight: bold;
+    padding-top: 100px;
+    width: 60%;
+    text-align: center;
+    
+}
+#link-esat:hover{
+    font-size: large;
+}
+.logo-e{
+    position: absolute;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 80px;
+    
+}
+.logo-e:hover{ 
+    height: 120px;
+}
+#harvard{
+    width: 100%;
+    height : 250px;
+}
+#harvard:hover{
+    background-color: aliceblue;
+    border-top: 1px solid black;
+}
+.mail:hover{
+    font-size: large;
+}
+#logo-h-container{
+    position: absolute;
+    height : 250px;
+    width : 40%;
+    
+}
+.logo-h{
+    height: 250px;
+    margin: 0px 200px;
+}
+.logo-h:hover{ 
+    height: 310px;
+}
+.hd-description{
+    float:right;
+    width : 60% ;
+    height: 250px;
+    padding-top: 50px;
+    font-weight: bold;
+    text-align : center;
+    
+}
+.hd-description a{
+    text-decoration: none;
+    color: #000000;
+}
+.hd-description a:hover{
+    font-size: large;
+}
+#button-certif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height : 100px;
+}
+.portfolio-title{
+    margin-top: 850px ;
+    width: 100%;
+    height: 100px;
+    font-size: xx-large;
+    text-shadow: 3px 3px 5px rgb(61, 59, 59);
+}
+.projects{
+    position: absolute;
+    margin-top : 50px;
+    width : 100%;
+    height: 2000px; 
+}
+.column2:hover{
+    background-color: rgba(123, 202, 123, 0.05);
+}
+
+#section1, #section2, #section3, #section4{
+    width : 100%; 
+    height : 500px
+}
+.column1, .column2, .column3{
+    height : 500px;
+    display : inline;
+    
+}
+.column1{
+    float: left;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column2{
+    float: inline-start;
+    width: 60%;
+    text-align: left;
+    padding-top: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    
+}
+.column3{
+    float: right;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-portfolio{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.img-portfolio2{
+    margin: auto;
+    padding: 1rem;
+    width : 50%;
+}
+.img-portfolio2:hover{
+    width : 55%;
+}
+#experience-title{
+    margin-top: 2200px ;
+    width: 100%;
+    height: 100px;
+    font-size: xx-large;
+    text-shadow: 3px 3px 5px rgb(61, 59, 59);
+}
+#experiences{
+    width : 100%;
+    height: 500px;
+}
+#logo-airgeo{
+    position : absolute;
+    width:40%;
+    height :250px;
+    
+}
+#img-airgeo{
+    position: absolute;
+    height : 200px;
+    margin-left : 130px;
+    margin-top: 20px;
+}
+#img-ageis{
+    height: 180px;
+    margin: 20px 180px;
+    
+}
+#img-airgeo:hover{
+    height : 220px;
+
+}
+#img-ageis:hover{
+    height: 200px;
+
+}
+.airgeo-description{
+    float: right;
+    height: 250px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 60%;
+    text-align: center;
+}
+#airgeo{
+    width: 100%;
+    height : 250px;
+}
+#airgeo:hover{
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+}
+#logo-ageis{
+    position : absolute;
+    width:40%;
+    height :250px;
+    
+}
+.ageis-description{
+    float:right;
+    width : 60% ;
+    height: 250px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align : center;
+
+}
+#ageis{
+    width: 100%;
+    height : 250px;
+}
+#ageis:hover{
+    background-color: aliceblue;
+    border-top: 1px solid black;
+}
+
+#space{
+    height: 80px;
+}
+.footer{  
+    position :fixed;
+    bottom : 0;
+    width:100%;
+    height: 80px;  
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    background-color: #000000;
+}
+.box1{
+    position: absolute;
+    height: 80px; 
+    width:50%;
+    text-align: center;
+}
+.box2{ 
+    float: right;
+    height: 80px; 
+    width:50%;
+    text-align: center;
+}
+#sticky{
+    border : 1px solid black;
+    border-radius :50px;
+    width : 300px;
+    margin-left: 350px;
+    background-color: rgb(0, 0, 0);
+    color : white;
+    height: 80px; 
+    padding: 30px;
+}
+#sticky:hover{
+    background-color: white;
+    color: #000000;
+    font-size: larger;
+    
+}
+@media screen and (max-width:1340px){
+    .material-symbols-outlined{
+        display:block !important;
+        margin-left: 25px;
+    }
+    #icon{
+        text-decoration: none;
+    }
+
+
+    .navbar{
+        margin-top: 0px;
+    }
+    .nav-bar{
+        display: none;
+        width :40%;      
+        
+    }
+    .the_me{
+        height: 400px;
+    } 
+
+    .the_me_container{
+        margin-top: 0;
+        float:right;
+        height : 350px;
+
+    }
+    .the_me2{
+        display: none;
+    } 
+    .intro{
+        display: none;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #about{
+        position: absolute;
+        margin-left : 0px;
+        margin-top: 70px;
+        height: 700px;
+    }
+    .text_about_container{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: -65px;
+        height: 700px;
+        width:90%;
+    }
+    .presentation-1, .presentation-about{
+        margin-top: 0px;
+        font-size: large;
+        font-weight: bold;
+    
+    }
+    .presentation-2, .presentation-about2{
+        font-size: small;
+        padding : 3px;
+        font-weight: bold;
+    }
+    .button{
+        position : absolute;
+        padding :10px;
+        font-size: smaller;
+    }
+    .section-title{
+        margin-top: 850px ;
+        height: 20px;
+        font-size:x-large;
+    }
+    #esat{
+        margin-top: 34px;
+    }
+    .logo-e{
+        position: absolute;
+        height: 50px;
+        margin-left:120px;
+        margin-top:20px;
+        
+    }  
+    .esat-description{ 
+        float: none;
+        height: 250px;
+        font-weight: bold;
+        padding-top: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: smaller;
+    }
+    .logo-e:hover{
+        height: 60px;
+    } 
+    #harvard{
+        margin-top: -10px;
+        height: 300px;
+    } 
+    .logo-h{    
+        height: 180px;
+        margin-left:80px;
+        margin-top:0px;
+        margin-right:0px;
+    }
+    .logo-h:hover{
+        height: 190px;
+    }  
+    #logo-h-container{
+        position: absolute;
+        height : 10px;
+        width : 100%;
+    }
+    .ed-description{
+        margin-top: 90px;
+        margin-left: 0px;
+        font-size: smaller;
+    }
+    .hd-description{
+        float: none;
+        width : 100%;
+        text-align: center;
+        padding-top: 150px;
+    }
+    .hd-description a:hover{
+        font-size: medium;
+    }
+    .portfolio-title{
+        margin-top: 750px ;
+        height: 60px;
+        font-size: x-large;
+        text-shadow: 3px 3px 5px rgb(61, 59, 59);
+    }
+    .projects{
+        position: absolute;
+        margin-top : 30px;
+        margin-left: 0px;
+        width : 100%;
+    }
+    #section1, #section2, #section3, #section4{
+        width : 100%;
+        height : 1000px
+    }
+    .column1{
+        float : none;
+        display : block;
+        width: 100%;
+        height: 250px;
+        
+    }
+    .column2{
+        float : none;
+        display : block;
+        width: 100%;
+        
+    }
+    .column3{
+        float : none;
+        display : block;
+        width: 100%;
+        height: 250px;
+        
+    }
+    #experience-title{
+        margin-top: 4150px ;
+        width: 100%;
+        height: 100px;
+        font-size: xx-large;
+        text-shadow: 3px 3px 5px rgb(61, 59, 59);
+    }
+    #experiences{
+        margin-top: 0px;
+        width : 100%;
+    }
+    #logo-airgeo{
+        position : absolute;
+        width:100%;
+        height :250px;
+        
+    }
+    #img-airgeo{
+        height : 100px;
+        margin-left : 120px;
+        margin-top: 0px;
+    }
+    #img-ageis{
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    #img-ageis:hover{
+        height: 105px;
+        
+    }
+    #logo-ageis{
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 140px;
+        
+    }
+    .img-airgeo:hover{
+        height : 110px;
+    
+    }
+    .airgeo-description{
+        float: none;
+        height: 300px;
+        padding-top: 80px;
+        width: 100%;
+        text-align: center;
+        font-size: smaller;
+    }
+    .ageis-description{
+        float: none;
+        height: 300px;
+        padding-top: 80px;
+        width: 100%;
+        text-align: center;
+        font-size: smaller;
+    }
+    .footer{ 
+        font-size: small;
+    }
+    #sticky{
+        border : 1px solid black;
+        border-radius :50px;
+        width : 130px;
+        margin-left:30%;
+        height: 80px;
+        background-color: rgb(0, 0, 0);
+        color : white;
+        font-size: small; 
+        padding: 20px;     
+    }
+    #sticky:hover{
+        background-color: white;
+        color: #000000;
+        font-size: medium;
+    }  
+}

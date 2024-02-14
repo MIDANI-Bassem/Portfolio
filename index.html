@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO BM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type = "image/svg" href="user-tie-solid.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/46cbe569ec.js" crossorigin="anonymous"></script>
+</head>
+    <script>
+        function getNav()
+        {
+            const nav = document.getElementsByClassName("nav-bar");
+            for (let i = 0; i < nav.length; i++) {
+                nav[i].style.display = "block";       
+        }}
+    </script>
+<body>
+    <header>
+        <div class ="navbar" id="myNavbar">
+            <a href="javascript:void(0);" onclick ="getNav();" id = "icon" ><span class="material-symbols-outlined">list</span></a>
+            <a class = "nav-bar" name = "home" href = "#home" id="active">Home</a>         
+            <a class = "nav-bar" name = "about" href="#about">About</a>         
+            <a class = "nav-bar" name = "education" href = "#education2">Education</a>
+            <a class = "nav-bar" name = "projects" href = "#projects">Projects and Skills</a>
+            <a class = "nav-bar" name = "experiences" href = "#experiences">Experiences</a>
+            <a class = "nav-bar" name = "contact" href = "mailto:lemidanibassem@gmail.com">Contact</a>
+        </div>   
+    </header>
+    <main>
+        <div id = "home" class="clearfix">           
+            <div class = "intro">
+                <p class="presentation-1">Hello !</p>
+                <p class="presentation-1">I Am Midani Bassem</p>
+                <p class="presentation-2">I'm a junior Web Developer. My passion is to create websites, applications and many more..</p>
+                <a class="button" name = "projects" href = "#projects">SEE PORTFOLIO</a>
+            </div>
+            <div class = "the_me_container">
+                <img class ="the_me" src="portfolio.png" alt="moi" title="moi">
+            </div>
+        </div>
+        <div id="about" class="clearfix">
+            <div class = "the_me2_container">
+                <img class ="the_me2" src="portfolio2.png" alt="moi" title="moi"> 
+            </div>
+            <div class ="text_about_container">
+                <p class="presentation-about1">Hello, I Am Midani Bassem</p>
+                <p class="presentation-about2">Passionate geomatics engineer,
+                    I am embarking on a career change towards software development to leverage the synergy between these fields. 
+                    With strong analytical skills and problem-solving abilities,
+                    I aim to contribute to innovative projects by combining my geomatics knowledge with a growing expertise in software development.</p>
+                <p class="presentation-about2">Name  : Midani Bassem</p>
+                <p class="presentation-about2">Age  : 29</p>
+                <p class="presentation-about2">Adresse   : 10, Square des rochellets, 44100 Nantes.</p>
+                <p class="presentation-about2">Phone number   : (+33)602320202</p>
+                <a class="link-esat" style="text-decoration: none;color: black;" href = "mailto:lemidanibassem@gmail.com"><p class="mail">Email   : lemidanibassem@gmail.com</p></a>
+                <a class="button" href="/Portfolio/static/_MidaniBassem_CV.pdf" download>Download CV</a>
+                <a class="button" name = "projects" href = "#projects" style="margin-top: 100px;">SEE PORTFOLIO</a> 
+                <a class="button" name = "projects" href = "https://www.linkedin.com/in/bassem-midani/" style="margin-top: 190px;" target="_blank">Check my Linkedin <i class="fa-brands fa-linkedin fa-xl"></i></a> 
+                
+            </div>
+        </div>
+        <div class="section-title" id="education2">
+            <p style="text-align: center;font-weight: bold;">EDUCATION</p>
+        </div>
+        <div id="education">
+            <div id ="esat" class="clearfix">
+                <div class="esat-logo">        
+                    <a href = "https://www.esat.ens.tn/fr/cycle-ingenieur-en-geomatique-et-topographie.php" target="_blank"><img class = "logo-e" src="logo-esat.png" alt="moi" title="moi"></a>
+                </div>
+                <div class="esat-description">
+                    <a id="link-esat" style="text-decoration: none;color: black;" href = "https://www.esat.ens.tn/fr/cycle-ingenieur-en-geomatique-et-topographie.php" target="_blank"><p>ESAT UNIVERSITY</p></a>
+                    <p>Preparatory Cycle in Mathematics/Physics</p>
+                </div>
+            </div>
+            <div id="harvard" class="ed-description"> 
+                <div id ="logo-h-container"><a href = "https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank"><img class ="logo-h" src="logo-harvard.png" alt="moi" title="moi"></a></div>
+                <div class="hd-description">
+                    <a href = "https://pll.harvard.edu/course/cs50-introduction-computer-science" target="_blank"><p>CS50's Introduction to Computer Science</p></a>
+                    <a href = "https://www.harvardonline.harvard.edu/course/cs50s-introduction-programming-python" target="_blank"><p>CS50's Introduction to Programming with Python</p></a>
+                    <a href = "https://pll.harvard.edu/course/cs50s-introduction-databases-sql" target="_blank"><p>CS50's Introduction to Databases with SQL</p></a>
+                    <a href = "https://pll.harvard.edu/course/cs50s-web-programming-python-and-javascript/2023-05" target="_blank"><p>CS50's Web Programming with Python and JavaScript</p></a>
+                </div>
+            </div>
+            <div id ="button-certif">
+                <a class="button" name = "projects" href = "_MidaniBassem_Certifications.zip" download>Download Certifications</a>
+            </div>
+        </div>
+        <div class="portfolio-title" id="projects">
+            <p style="text-align: center;font-weight: bold;">PORTFOLIO</p>
+        </div>
+        <div class="projects"> 
+                <div id="section1" class="clearfix">
+                    <div class = "column1"><img class="img-portfolio" src ="Projet MedinaTunis.png"title="Projet MedinaTunis"></div>
+                    <div class = "column2">
+                        <h2>Mise en place d'un Web-GIS interactive pour la gestion des circuits touristiques de la Medina de Tunis.​</h2>
+                        <p>Ce projet a pour but de valoriser les circuits touristiques de la Médina et son patrimoine historique. ​
+                        Il permet au lecteur d'extraire des informations via un site web interactif​​</p>
+                    </div>
+                    <div class = "column3"><a style = "text-decoration: none; text-align : center;" href="https://zealous-dijkstra-8adb59.netlify.app/" target="_blank"><img  class="img-portfolio2" src="Madina.png"title="qr-code"></a></div>
+                </div>               
+                <div id="section2" class="clearfix">
+                    <div class = "column1"><img  class="img-portfolio" src="Projet Galite.png"title="Projet Galite"></div>
+                    <div class = "column2">
+                        <h2>Carte interactive pour le suivi de sites protégés en Tunisie : exemple L’Archipel de la Galite.​​</h2>
+                        <p>Ce projet a pour objectif la mise en place d’une interface WebMapping permettant de fournir une vision historique et tournée vers le futur de l’archipel de la galite.​​</p>
+                    </div>
+                    <div class = "column3"><a style = "text-decoration: none; text-align : center;" href="https://lagalite.netlify.app/#13/37.5187/8.9145" target="_blank"><img  class="img-portfolio2" src="Galite.png"title="qr-code"></a></div>
+                </div>               
+                <div id="section3" class="clearfix">
+                    <div class = "column1"><img  class="img-portfolio" src="cs50 birthdays project.png"title="cs50 birthdays project"></div>
+                    <div class = "column2">
+                        <h2>Application web pour suivre les anniversaires de ses amis.​</h2>
+                        <p>L'objectif est de gérer et afficher les anniversaires des amis, en utilisant des requêtes GET et POST pour interagir avec une base de données SQLite.​​</p>                         
+                        </div>
+                    <div class = "column3"><a style = "text-decoration: none; text-align : center;" href="https://github.com/MIDANI-Bassem/CS50_Birthdays" target="_blank"><img  class="img-portfolio2" src="github.png"title="github-logo"></a></div>
+                </div>               
+                <div id="section4" class="clearfix">
+                    <div class = "column1"><img style = "height: 80%; width: 90%;" class="img-portfolio" src="cs50 finance project.png"title="cs50 finance project"></div>
+                    <div class = "column2">
+                        <h2>Application web pour  gestion de portefeuille d'actions​​</h2>
+                        <p>Conception et développement backend d'une application web de gestion de portefeuille d'actions, incluant l'inscription des utilisateurs, la consultation des cotes boursières, l'achat et la vente d'actions, ainsi que le suivi de l'historique des transactions.​</p>
+                    </div>
+                    <div class = "column3"><a style = "text-decoration: none; text-align : center;" href="https://github.com/MIDANI-Bassem/CS50_Finance" target="_blank"><img  class="img-portfolio2" src="github.png"title="github-logo"></a></div>
+                </div>               
+                          
+        </div>
+        <div class="section-title" id="experience-title">
+            <p style="text-align: center;font-weight: bold;">EXPERIENCES</p>
+        </div>
+        <div id="experiences">
+            <div id ="airgeo" class="clearfix">
+                <div id="logo-airgeo">        
+                    <a href = "http://www.airegeo.fr/" target="_blank"><img id ="img-airgeo" src="airgeo.png" alt="moi" title="moi"></a>
+                </div>
+                <div class="airgeo-description">
+                    <p style="color: black;">AIR&GEO</p>
+                    <p >Drafting of various Plans (Elevation Plan - Architecture Plan - Topographic or Mass Plan...)<br>
+                        Interior and exterior surveys with static and dynamic 3D scanners<br>
+                        Processing, Calculation, and drawing on point clouds.</p>
+                </div>
+            </div>
+            <div id="ageis" class="clearfix"> 
+                <div id ="logo-ageis"><a href = "https://www.ageis-ge.fr/#" target="_blank"><img id ="img-ageis" src="Logo-AGEIS-RVB.png" alt="moi" title="moi"></a></div>
+                <div class="ageis-description">
+                    <p style="color: black;">AGEIS</p>
+                    <p>Monitoring of 3D projects (quotes, invoices)<br>
+                        Organization, scheduling of interventions<br>
+                        Customer follow-up<br>
+                        Static and dynamic 3D scan surveys<br>
+                        3D data processing<br>
+                        Preparation of plans at 1/50th and 1/100th scale</p>
+                </div>
+            </div>
+        </div>
+        <div id="space"></div>
+    </main> 
+    <footer>
+        <div class = "footer">
+            <div class="box1"><p style="padding: 10px; color: white;">© Designed by Midani Bassem</p></div>
+            <div class="box2"><a id= "sticky" style="display: block; text-decoration: none; " href = "mailto:lemidanibassem@gmail.com">CONTACT ME</a></div>         
+        </div>
+    </footer>
+</body>
+</html>
+
+            
